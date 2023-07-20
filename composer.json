@@ -1,0 +1,36 @@
+{
+    "name": "magemen/quick-shop",
+    "description": "This Hvya supported module provides Quick shop button on products and add to cart ajax feature as well.",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Magemen",
+            "homepage": "https://www.magemen.com",
+            "email": "info@magemen.com"
+        },
+        {
+            "name": "Syed Fakhar Abbas",
+            "email": "syed@magemen.com",
+            "homepage": "https://www.magemen.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.4||~8.1.0||~8.2.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magemen\\QuickShop\\": ""
+        }
+    }
+}
+
